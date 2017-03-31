@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "GetNextActivity"
+    },
+    {
+      "intent": "GetActivityByTime",
+      "slots": [
+        {
+          "name": "timenow",
+          "type": "AMAZON.TIME"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+GetNextActivity what am I supposed to do now
+GetNextActivity what do I do next
+GetNextActivity what's next
+
+GetActivityByTime what do I do at {timenow}
+GetActivityByTime what's at {timenow}
